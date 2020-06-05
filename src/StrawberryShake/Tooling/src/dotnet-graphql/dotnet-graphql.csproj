@@ -11,6 +11,7 @@
     <PackageId>StrawberryShake.Tools</PackageId>
     <AssemblyName>dotnet-graphql</AssemblyName>
     <RootNamespace>StrawberryShake.Tools</RootNamespace>
+    <Version>11.0.0-rs.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
