@@ -183,7 +183,7 @@ namespace StrawberryShake.Generators.CSharp
                     .ConfigureAwait(false);
                 await writer.WriteLineAsync().ConfigureAwait(false);
 
-                await writer.WriteIndentedLineAsync("switch(stringValue)")
+                await writer.WriteIndentedLineAsync("switch(stringValue.ToUpper())")
                     .ConfigureAwait(false);
                 await writer.WriteIndentedLineAsync("{")
                     .ConfigureAwait(false);
